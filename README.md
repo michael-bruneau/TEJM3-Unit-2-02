@@ -11,6 +11,7 @@
 
 // variables
 int blinkDelay = 1000;
+int blinkDelayIncrease = 1000;
 
 // setup
 void setup() {
@@ -28,5 +29,5 @@ void loop()
   delay(blinkDelay); // Wait for 1000 millisecond(s)
   
   // increases blink delay by 1000 each loop
-  blinkDelay += 1000;
+  blinkDelay += blinkDelayIncrease;
 }
